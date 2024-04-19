@@ -2,3 +2,84 @@
 	padding: 0;
 	margin: 0;
 }
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.body__header {
+	background: url(/2/2024/Travel/img/Rectangle1.png) 0 0 no-repeat;
+	font-family: 'Aleo';
+}
+
+.header {}
+
+.header__up {
+	display: flex;
+	justify-content: space-around;
+}
+
+.up {}
+
+.up__globo {}
+
+.globo {
+	display: flex;
+}
+
+.globo__img {}
+
+.globo__h1 {
+	font-weight: 600;
+	font-size: 32px;
+	font-family: 'Magra';
+	color: #FFFFFF;
+}
+
+.up__nav {}
+
+.nav {
+
+	font-family: Red Hat Text;
+	font-weight: 500;
+	font-size: 16px;
+
+}
+
+.nav__list {}
+
+.list {
+	display: flex;
+
+}
+
+.list__link {}
+
+.up__button {
+	color: #FFFFFF;
+	font-family: 'Red Hat Text';
+	font-weight: 500;
+	background-color: #0D606F;
+	border-radius: 10px;
+}
+
+.header__bottom {}
+
+.bottom {}
+
+.bottom__h2 {}
+
+.bottom__p {}
+
+.bottom__form {}
+
+.form {}
+
+.form__input {}
+
+.form__button {}
