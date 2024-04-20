@@ -1,6 +1,7 @@
 * {
 	padding: 0;
 	margin: 0;
+	border: 0;
 }
 
 ul {
@@ -12,10 +13,42 @@ a {
 	color: #FFFFFF;
 }
 
-.body__header {
+@media (max-width: 1200px) {
+	.body__header {
+		width: 1000px;
+	}
+}
+
+@media (max-width: 1000px) {
+	.body__header {
+		width: 768px;
+	}
+}
+
+@media (max-width: 768px) {
+	.body__header {
+		width: 480px;
+	}
+
+	.globo__h1 {
+		font-size: 4.5vw;
+	}
+}
+
+@media (max-width: 480px) {
+	.body__header {
+		width: 100%;
+	}
+
+	.globo__h1 {
+		font-size: 6vw;
+	}
+}
+
+/*.body__header {
 	background: url(/2/2024/Travel/img/Rectangle1.png) 0 0 no-repeat;
 	font-family: 'Aleo';
-}
+}*/
 
 .header {}
 
@@ -36,7 +69,7 @@ a {
 
 .globo__h1 {
 	font-weight: 600;
-	font-size: 32px;
+	font-size: calc(16px + 16 * (100vw / 1440));
 	font-family: 'Magra';
 	color: #FFFFFF;
 }
@@ -47,7 +80,7 @@ a {
 
 	font-family: Red Hat Text;
 	font-weight: 500;
-	font-size: 16px;
+	font-size: calc();
 
 }
 
