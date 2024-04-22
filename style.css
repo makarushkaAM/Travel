@@ -13,7 +13,7 @@ a {
 	color: #FFFFFF;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1440px) {
 	.body__header {
 		width: 1000px;
 	}
@@ -45,16 +45,19 @@ a {
 	}
 }
 
-/*.body__header {
+.body__header {
+	width: 100%;
+	height: auto;
 	background: url(/2/2024/Travel/img/Rectangle1.png) 0 0 no-repeat;
 	font-family: 'Aleo';
-}*/
+}
 
 .header {}
 
 .header__up {
 	display: flex;
 	justify-content: space-around;
+	align-items: center;
 }
 
 .up {}
