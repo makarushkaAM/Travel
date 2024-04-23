@@ -47,7 +47,7 @@ a {
 
 .body__header {
 	width: 100%;
-	height: auto;
+	height: ;
 	background: url(/2/2024/Travel/img/Rectangle1.png) 0 0 no-repeat;
 	font-family: 'Aleo';
 	color: #FFFFFF;
@@ -59,6 +59,10 @@ a {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	background-color: #F2785CB2;
+	width: 100%;
+	height: 5.6em;
+	box-shadow: ;
 }
 
 .up {}
@@ -69,7 +73,9 @@ a {
 	display: flex;
 }
 
-.globo__img {}
+.globo__img {
+	padding-left: ;
+}
 
 .globo__h1 {
 	font-weight: 600;
@@ -84,7 +90,7 @@ a {
 
 	font-family: Red Hat Text;
 	font-weight: 500;
-	font-size: calc();
+	font-size:
 
 }
 
@@ -95,7 +101,9 @@ a {
 
 }
 
-.list__link {}
+.list__link {
+	margin-left: 5%;
+}
 
 .up__button {
 	color: #FFFFFF;
@@ -105,11 +113,17 @@ a {
 	border-radius: 10px;
 }
 
-.header__bottom {}
+.header__bottom {
+	position: relative;
+	top: 5.3em;
+	left: 7.3em;
+}
 
 .bottom {}
 
-.bottom__h2 {}
+.bottom__h2 {
+	font-size: 5em;
+}
 
 .bottom__p {}
 
@@ -167,7 +181,12 @@ a {
 
 .one__fon {}
 
-.one__bike {}
+.one__bike {
+	background-color: #0D606F;
+	position: relative;
+	top: 10px;
+	left: 10px;
+}
 
 .list__2 {}
 
@@ -184,7 +203,9 @@ a {
 
 .two__fon {}
 
-.two__bag {}
+.two__bag {
+	background-color: #0D606F;
+}
 
 .list__3 {}
 
@@ -201,7 +222,9 @@ a {
 
 .three__fon {}
 
-.three__fly {}
+.three__fly {
+	background-color: #0D606F;
+}
 
 .main__carousel {}
 
