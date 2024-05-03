@@ -14,19 +14,21 @@ a {
 }
 
 @media (max-width: 1440px) {
-	.body__header {
+	.body {
 		width: 1000px;
 	}
+
+	.header__up {}
 }
 
 @media (max-width: 1000px) {
-	.body__header {
+	.body {
 		width: 768px;
 	}
 }
 
 @media (max-width: 768px) {
-	.body__header {
+	.body {
 		width: 480px;
 	}
 
@@ -36,7 +38,7 @@ a {
 }
 
 @media (max-width: 480px) {
-	.body__header {
+	.body {
 		width: 100%;
 	}
 
@@ -45,9 +47,18 @@ a {
 	}
 }
 
+.body {
+	width: 100%;
+	max-width: 1440px;
+}
+
+.wrapper {
+	min-height: 100%;
+	margin: 0 auto;
+}
+
 .body__header {
 	width: 100%;
-	height: ;
 	background: url(/2/2024/Travel/img/Rectangle1.png) 0 0 no-repeat;
 	font-family: 'Aleo';
 	color: #FFFFFF;
@@ -62,7 +73,7 @@ a {
 	background-color: #F2785CB2;
 	width: 100%;
 	height: 5.6em;
-	box-shadow: ;
+	box-shadow: 2px 2px 2px black;
 }
 
 .up {}
@@ -74,7 +85,10 @@ a {
 }
 
 .globo__img {
-	padding-left: ;
+	width: 30px;
+	height: 30px;
+	padding: 0 0 0 0;
+	margin-left: -8%;
 }
 
 .globo__h1 {
@@ -82,15 +96,17 @@ a {
 	font-size: calc(16px + 16 * (100vw / 1440));
 	font-family: 'Magra';
 	color: #FFFFFF;
+	padding-left: 3%;
 }
 
 .up__nav {}
 
 .nav {
-
+	max-width: 527px;
+	width: 100%;
 	font-family: Red Hat Text;
 	font-weight: 500;
-	font-size:
+	font-size: ;
 
 }
 
@@ -111,6 +127,8 @@ a {
 	font-weight: 500;
 	background-color: #0D606F;
 	border-radius: 10px;
+	width: 103px;
+	height: 41px;
 }
 
 .header__bottom {
