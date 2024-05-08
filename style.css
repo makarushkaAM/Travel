@@ -18,6 +18,7 @@ a {
 		width: 1000px;
 	}
 
+
 	.header__up {}
 }
 
@@ -47,101 +48,102 @@ a {
 	}
 }
 
-.body {
-	width: 100%;
-	max-width: 1440px;
-}
+.body {}
 
-.wrapper {
-	min-height: 100%;
-	margin: 0 auto;
-}
+.wrapper {}
 
-.body__header {
-	width: 100%;
-	background: url(/2/2024/Travel/img/Rectangle1.png) 0 0 no-repeat;
-	font-family: 'Aleo';
-	color: #FFFFFF;
-}
+.body__header {}
 
 .header {}
 
 .header__up {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
 	background-color: #F2785CB2;
 	width: 100%;
-	height: 5.6em;
-	box-shadow: 2px 2px 2px black;
+	max-width: 1440px;
+	height: 90px;
+	box-shadow: 0 4px 4px #0D606F80;
+	align-items: center;
 }
 
-.up {}
+.up {
+	display: flex;
+	justify-content: space-around;
+}
 
-.up__globo {}
-
-.globo {
+.up__globo {
 	display: flex;
 }
+
+.globo {}
 
 .globo__img {
 	width: 30px;
 	height: 30px;
-	padding: 0 0 0 0;
-	margin-left: -8%;
+	margin-left: -14%;
+	margin-top: -1px;
 }
 
 .globo__h1 {
-	font-weight: 600;
-	font-size: calc(16px + 16 * (100vw / 1440));
-	font-family: 'Magra';
 	color: #FFFFFF;
-	padding-left: 3%;
+	font-family: 'Magra', Arial, Helvetica, sans-serif;
+	padding-left: 2%;
+	margin-top: -2px;
 }
 
-.up__nav {}
-
-.nav {
-	max-width: 527px;
-	width: 100%;
-	font-family: Red Hat Text;
-	font-weight: 500;
-	font-size: ;
-
+.up__nav {
+	/*max-width: 527px;
+	max-height: 21px;*/
 }
 
-.nav__list {}
+.nav {}
 
-.list {
+.nav__list {
+	font-family: 'Red Hat Text', Arial, Helvetica, sans-serif;
 	display: flex;
 
+
 }
 
+.list {}
+
 .list__link {
-	margin-left: 5%;
+
+
+	max-height: 21px;
+
 }
 
 .up__button {
-	color: #FFFFFF;
-	font-family: 'Red Hat Text';
-	font-weight: 500;
 	background-color: #0D606F;
-	border-radius: 10px;
 	width: 103px;
 	height: 41px;
+	border-radius: 10px;
+	color: #FFFFFF;
+	font-family: 'Red Hat Text', Arial, Helvetica, sans-serif;
+	box-shadow: 0 2px 3px #0D606F;
+	font-size: 1em;
 }
 
-.header__bottom {
+.header__fon {}
+
+.fon {
+	width: 100%;
+	max-width: 1440px;
+	height: 100%;
+	max-height: 765px;
 	position: relative;
-	top: 5.3em;
-	left: 7.3em;
+	top: -90px;
+	left: 0;
+	z-index: -1;
 }
+
+.fon__img {}
+
+.header__bottom {}
 
 .bottom {}
 
-.bottom__h2 {
-	font-size: 5em;
-}
+.bottom__h2 {}
 
 .bottom__p {}
 
@@ -151,233 +153,4 @@ a {
 
 .form__input {}
 
-.form__button {
-	color: #FFFFFF;
-	font-family: 'Red Hat Text';
-	font-weight: 500;
-	background-color: #0D606F;
-	border-radius: 10px;
-}
-
-.body__main {}
-
-.main {}
-
-.main__section {}
-
-.section {}
-
-.section__h2,
-.carousel__h2,
-.main__h2 {
-	color: #F2785C;
-	font-weight: 500;
-	font-size: calc(24px + 16 * (100vw / 1440));
-	text-align: center;
-}
-
-.section__list {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-}
-
-.list {}
-
-.list__1 {}
-
-.first-part {}
-
-.first-part__one {
-	display: flex;
-	flex-direction: column-reverse;
-}
-
-.one {}
-
-.one__p {}
-
-.one__fon {}
-
-.one__bike {
-	background-color: #0D606F;
-	position: relative;
-	top: 10px;
-	left: 10px;
-}
-
-.list__2 {}
-
-.second-part {}
-
-.second-part__two {
-	display: flex;
-	flex-direction: column-reverse;
-}
-
-.two {}
-
-.two__p {}
-
-.two__fon {}
-
-.two__bag {
-	background-color: #0D606F;
-}
-
-.list__3 {}
-
-.third-part {}
-
-.third-part__three {
-	display: flex;
-	flex-direction: column-reverse;
-}
-
-.three {}
-
-.three__p {}
-
-.three__fon {}
-
-.three__fly {
-	background-color: #0D606F;
-}
-
-.main__carousel {}
-
-.carousel {}
-
-.carousel__h2 {}
-
-.carousel__fotos {
-	display: flex;
-	justify-content: space-between;
-}
-
-.fotos {}
-
-.fotos__roks {}
-
-.fotos__rocks {}
-
-.fotos__usa {}
-
-.main__ellipse {
-	display: flex;
-	justify-content: center;
-}
-
-.ellipse {}
-
-.ellipse__1 {}
-
-.ellipse__2 {}
-
-.ellipse__3 {}
-
-.main__more {}
-
-.more__find {}
-
-.find {
-	color: #FFFFFF;
-	font-family: 'Red Hat Text';
-	font-weight: 500;
-	background-color: #0D606F;
-	border-radius: 10px;
-}
-
-.find__img {}
-
-.main__h2 {}
-
-.basement {}
-
-.main__stories {}
-
-.stories {}
-
-.stories__water {
-	display: flex;
-}
-
-.water {}
-
-.water__foto {}
-
-.water__info {}
-
-.info {}
-
-.info__h3 {}
-
-.info__text {}
-
-.stories__road {
-	display: flex;
-}
-
-.road {}
-
-.road__foto {}
-
-.road__info {}
-
-.stories__mountains {
-	display: flex;
-}
-
-.mountains {}
-
-.mountains__foto {}
-
-.mountains__info {}
-
-.stories__car {
-	display: flex;
-}
-
-.car {}
-
-.car__foto {}
-
-.car__info {}
-
-.stories__see {}
-
-.see {}
-
-.see__more {
-	color: #FFFFFF;
-	font-family: 'Red Hat Text';
-	font-weight: 500;
-	background-color: #0D606F;
-	border-radius: 10px;
-}
-
-.more {}
-
-.more__img {}
-
-.basement__down {}
-
-.down {}
-
-.down__h3 {}
-
-.down__mas {}
-
-.mas {}
-
-.mas__telegram {}
-
-.mas__youtube {}
-
-.youtube {}
-
-.youtube__square {}
-
-.youtube__triangle {}
-
-.mas__twitter {}
+.form__button {}
