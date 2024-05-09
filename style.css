@@ -15,11 +15,16 @@ a {
 
 @media (max-width: 1440px) {
 	.body {
-		width: 1000px;
+		width: 1200px;
 	}
 
-
 	.header__up {}
+}
+
+@media (max-width: 1200px) {
+	.body {
+		width: 1000px;
+	}
 }
 
 @media (max-width: 1000px) {
@@ -72,6 +77,7 @@ a {
 
 .up__globo {
 	display: flex;
+	margin-left: 1.5%;
 }
 
 .globo {}
@@ -79,38 +85,31 @@ a {
 .globo__img {
 	width: 30px;
 	height: 30px;
-	margin-left: -14%;
-	margin-top: -1px;
+	padding-right: 0.5rem;
 }
 
 .globo__h1 {
 	color: #FFFFFF;
 	font-family: 'Magra', Arial, Helvetica, sans-serif;
-	padding-left: 2%;
 	margin-top: -2px;
 }
 
-.up__nav {
-	/*max-width: 527px;
-	max-height: 21px;*/
-}
+.up__nav {}
 
 .nav {}
 
 .nav__list {
 	font-family: 'Red Hat Text', Arial, Helvetica, sans-serif;
 	display: flex;
-
-
+	margin-left: -1.2rem;
 }
 
 .list {}
 
 .list__link {
-
-
-	max-height: 21px;
-
+	margin-right: 2.4rem;
+	width: 105px;
+	height: 21px;
 }
 
 .up__button {
@@ -122,6 +121,9 @@ a {
 	font-family: 'Red Hat Text', Arial, Helvetica, sans-serif;
 	box-shadow: 0 2px 3px #0D606F;
 	font-size: 1em;
+	position: relative;
+	top: 0;
+	right: 2.2rem;
 }
 
 .header__fon {}
@@ -139,18 +141,61 @@ a {
 
 .fon__img {}
 
-.header__bottom {}
+.header__bottom {
+	display: grid;
+	width: 100%;
+	max-width: 892px;
+	height: 100%;
+	max-height: 422px;
+	position: relative;
+	top: -45.8rem;
+	left: 7.5rem;
+}
 
 .bottom {}
 
-.bottom__h2 {}
+.bottom__h2 {
+	color: #FFFFFF;
+	font-family: 'Aleo', Arial, Helvetica, sans-serif;
+	font-weight: 700;
+	font-size: 5rem;
+}
 
-.bottom__p {}
+.bottom__p {
+	color: #FFFFFF;
+	font-family: 'Aleo', Arial, Helvetica, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 1.2rem;
+	padding-top: 32px;
+}
 
 .bottom__form {}
 
 .form {}
 
-.form__input {}
+.form__input {
+	width: 100%;
+	max-width: 892px;
+	height: 95px;
+	border-radius: 16px;
+	background-color: #FFFFFFB2;
+	/*color: #F2785C;*/
+	margin-top: 46px;
+}
 
-.form__button {}
+.form__button {
+	width: 100%;
+	max-width: 228px;
+	height: 59px;
+	border-radius: 10px;
+	background-color: #0D606F;
+	color: #FFFFFF;
+	box-shadow: 0 2px 3px #0D606F;
+	font-family: 'Red Hat Text', Arial, Helvetica, sans-serif;
+	font-weight: 500;
+	font-size: 1.5rem;
+	position: relative;
+	top: -77px;
+	left: 40.4rem;
+}
