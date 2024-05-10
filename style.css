@@ -180,8 +180,15 @@ a {
 	height: 95px;
 	border-radius: 16px;
 	background-color: #FFFFFFB2;
-	/*color: #F2785C;*/
 	margin-top: 46px;
+}
+
+.form__input::placeholder {
+	color: #F2785C;
+	font-family: 'Aleo', Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-size: 1.5rem;
+	padding: 1.6rem 0 1.3rem 2.4rem;
 }
 
 .form__button {
@@ -199,3 +206,136 @@ a {
 	top: -77px;
 	left: 40.4rem;
 }
+
+.section__h2,
+.carousel__h2,
+.main__h2 {
+	color: #F2785C;
+	font-family: 'Red Hat Text', Arial, Helvetica, sans-serif;
+	font-weight: 500;
+	font-size: 2.5rem;
+}
+
+.Steps {
+	position: relative;
+	top: -26.9rem;
+	left: 25.8rem;
+}
+
+.body__main {}
+
+.main {}
+
+.main__section {}
+
+.section {}
+
+.section__list {
+	display: flex;
+	justify-content: space-around;
+	position: relative;
+	top: -25rem;
+	left: 6.1rem;
+	align-items: center;
+}
+
+.list {}
+
+.list__1 {}
+
+.first-part {}
+
+.first-part__one {
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.one {}
+
+.one__p,
+.two__p,
+.three__p {
+	font-family: 'Aleo', Arial, Helvetica, sans-serif;
+	color: #0D606F;
+	font-size: 1.3rem;
+}
+
+.one__fon {
+	margin-top: -5.4rem;
+	position: relative;
+	top: 0;
+	left: 0.9rem;
+}
+
+.one__bike {
+	position: relative;
+	top: -0.7rem;
+	left: 2.4rem;
+}
+
+.list__2 {}
+
+.second-part {}
+
+.second-part__two {
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.two {}
+
+.two__fon {
+	position: relative;
+	top: -3rem;
+	left: 5.7rem;
+}
+
+.two__bag {
+	position: relative;
+	top: 2rem;
+	left: 7.1rem;
+}
+
+.list__3 {}
+
+.third-part {}
+
+.third-part__three {
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.three {}
+
+.three__p {}
+
+.three__fon {
+	position: relative;
+	top: -2.8rem;
+	left: 9.5rem;
+}
+
+.three__fly {
+	position: relative;
+	top: 2rem;
+	left: 10.7rem;
+}
+
+.main__carousel {}
+
+.carousel {}
+
+.carousel__h2 {}
+
+.carousel__fotos {
+	display: flex;
+
+}
+
+.fotos {}
+
+.fotos__roks {}
+
+.fotos__rocks {}
+
+.fotos__usa {}
