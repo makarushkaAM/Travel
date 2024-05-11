@@ -13,6 +13,7 @@ a {
 	color: #FFFFFF;
 }
 
+
 @media (max-width: 1440px) {
 	.body {
 		width: 1200px;
@@ -321,21 +322,194 @@ a {
 	left: 10.7rem;
 }
 
-.main__carousel {}
+.main__carousel {
+	margin-top: -23.5%;
+}
 
 .carousel {}
 
-.carousel__h2 {}
+.carousel__h2 {
+	text-align: center;
+	padding-left: 20%;
+
+}
 
 .carousel__fotos {
 	display: flex;
-
 }
 
 .fotos {}
 
-.fotos__roks {}
+.fotos__roks {
+	padding-right: 5%;
+}
 
-.fotos__rocks {}
+.fotos__rocks {
+	padding-right: 5%;
+}
 
 .fotos__usa {}
+
+.main__ellipse {
+	display: flex;
+	justify-content: center;
+}
+
+.ellipse {}
+
+.ellipse__1 {
+	padding-right: 1%;
+}
+
+.ellipse__2 {
+	padding-right: 1%;
+}
+
+.ellipse__3 {}
+
+.main__more {
+	display: flex;
+	justify-content: center;
+}
+
+.more__find {
+	width: 228px;
+	height: 59px;
+	background-color: #0D606F;
+	border-radius: 10px;
+	color: #FFFFFF;
+	font-size: 1rem;
+	display: flex;
+	align-items: center;
+}
+
+.find {}
+
+.find__img {}
+
+.main__h2 {
+	text-align: center;
+}
+
+.basement {}
+
+.main__stories {
+	background-color: #FFFFFFB2;
+
+}
+
+.stories {
+	
+	position: relative;
+	top: 11.8rem;
+	left: 0;
+}
+
+.stories__water {
+	display: flex;
+}
+
+.water {}
+
+.water__foto {}
+
+.water__info {}
+
+.info {}
+
+.info__h3 {
+	color: #0D606F;
+	font-family: 'Aleo', Arial, Helvetica, sans-serif;
+	font-size: 35px;
+}
+
+.info__text {
+	width: 100%;
+	max-width: 760px;
+	height: 100%;
+	max-height: 184px;
+	color: #0D606F;
+	font-family: 'Aleo', Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+.stories__road {
+	display: flex;
+}
+
+.road {}
+
+.road__foto {}
+
+.road__info {}
+
+.stories__mountains {
+	display: flex;
+}
+
+.mountains {}
+
+.mountains__foto {}
+
+.mountains__info {}
+
+.stories__car {
+	display: flex;
+}
+
+.car {}
+
+.car__foto {}
+
+.car__info {}
+
+.stories__see {}
+
+.see {}
+
+.see__more {
+	width: 228px;
+	height: 59px;
+	border-radius: 10px;
+	background-color: #0D606F;
+}
+
+.more {}
+
+.more__img {}
+
+.basement__down {}
+
+.down {}
+
+.down__h3 {
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.down__mas {
+	display: flex;
+	justify-content: end;
+}
+
+.mas {}
+
+.mas__telegram {}
+
+.mas__youtube {}
+
+.youtube {}
+
+.youtube__square {}
+
+.youtube__triangle {}
+
+.mas__twitter {}
+
+
+.down__fon {
+	position: relative;
+	top: -61rem;
+	left: 0;
+	z-index: -1;
+	
