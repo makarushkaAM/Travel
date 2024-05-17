@@ -54,13 +54,24 @@ a {
 	}
 }
 
-.body {}
+.body {
+	height: 100%;
+}
 
-.wrapper {}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	max-width: 1440px;
+	min-height: 100%;
+}
 
 .body__header {}
 
-.header {}
+.header {
+	background: url(/2/2024/Travel/img/Rectangle1.png) 0 0 no-repeat;
+	z-index: -1;
+}
 
 .header__up {
 	background-color: #F2785CB2;
@@ -78,7 +89,7 @@ a {
 
 .up__globo {
 	display: flex;
-	margin-left: 1.5%;
+	margin-left: 1.8%;
 }
 
 .globo {}
@@ -102,7 +113,7 @@ a {
 .nav__list {
 	font-family: 'Red Hat Text', Arial, Helvetica, sans-serif;
 	display: flex;
-	margin-left: -1.2rem;
+	margin-left: -0.9rem;
 }
 
 .list {}
@@ -124,20 +135,7 @@ a {
 	font-size: 1em;
 	position: relative;
 	top: 0;
-	right: 2.2rem;
-}
-
-.header__fon {}
-
-.fon {
-	width: 100%;
-	max-width: 1440px;
-	height: 100%;
-	max-height: 765px;
-	position: relative;
-	top: -90px;
-	left: 0;
-	z-index: -1;
+	right: 2rem;
 }
 
 .fon__img {}
@@ -148,9 +146,8 @@ a {
 	max-width: 892px;
 	height: 100%;
 	max-height: 422px;
-	position: relative;
-	top: -45.8rem;
-	left: 7.5rem;
+	padding-top: 32px;
+	margin-left: 8.4%;
 }
 
 .bottom {}
@@ -204,8 +201,8 @@ a {
 	font-weight: 500;
 	font-size: 1.5rem;
 	position: relative;
-	top: -77px;
-	left: 40.4rem;
+	top: -4.8rem;
+	left: 40.3rem;
 }
 
 .section__h2,
@@ -217,13 +214,11 @@ a {
 	font-size: 2.5rem;
 }
 
-.Steps {
-	position: relative;
-	top: -26.9rem;
-	left: 25.8rem;
-}
+.Steps {}
 
-.body__main {}
+.body__main {
+	flex: 1 1 auto;
+}
 
 .main {}
 
@@ -234,9 +229,7 @@ a {
 .section__list {
 	display: flex;
 	justify-content: space-around;
-	position: relative;
-	top: -25rem;
-	left: 6.1rem;
+
 	align-items: center;
 }
 
@@ -310,21 +303,11 @@ a {
 
 .three__p {}
 
-.three__fon {
-	position: relative;
-	top: -2.8rem;
-	left: 9.5rem;
-}
+.three__fon {}
 
-.three__fly {
-	position: relative;
-	top: 2rem;
-	left: 10.7rem;
-}
+.three__fly {}
 
-.main__carousel {
-	margin-top: -23.5%;
-}
+.main__carousel {}
 
 .carousel {}
 
@@ -336,6 +319,8 @@ a {
 
 .carousel__fotos {
 	display: flex;
+	width: 100%;
+	max-width: 1440px;
 }
 
 .fotos {}
@@ -391,7 +376,9 @@ a {
 	text-align: center;
 }
 
-.basement {}
+.basement {
+	background: url(/2/2024/Travel/img/Rectangle27.png) 0 0 no-repeat;
+}
 
 .main__stories {
 	background-color: #FFFFFFB2;
@@ -399,7 +386,7 @@ a {
 }
 
 .stories {
-	
+
 	position: relative;
 	top: 11.8rem;
 	left: 0;
@@ -505,11 +492,3 @@ a {
 .youtube__triangle {}
 
 .mas__twitter {}
-
-
-.down__fon {
-	position: relative;
-	top: -61rem;
-	left: 0;
-	z-index: -1;
-	
